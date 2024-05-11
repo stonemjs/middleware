@@ -1,9 +1,10 @@
 {
   // https://www.typescriptlang.org/docs/handbook/declaration-files/dts-from-js.html
   "include": [
-    "dist/utils.mjs",
-    "dist/http_input_adapter_middleware.mjs",
-    "dist/http_output_adapter_middleware.mjs"
+    "dist/utils.js",
+    "dist/http_input_adapter_middleware.js",
+    "dist/http_output_adapter_middleware.js",
+    "dist/console_input_adapter_middleware.js"
   ],
   "compilerOptions": {
     "skipLibCheck": true,

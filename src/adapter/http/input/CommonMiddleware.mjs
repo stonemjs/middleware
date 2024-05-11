@@ -23,7 +23,7 @@ export class CommonMiddleware {
     }
     this._cookie = {
       options: cookie.options,
-      secret: cookie.secret ?? config.get('secret', null)
+      secret: cookie.secret ?? config.get('app.secret', null)
     }
   }
 
